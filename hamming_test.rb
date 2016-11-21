@@ -33,7 +33,6 @@ class HammingTest < Minitest::Test
   end
 
   def test_small_distance_in_long_strands
-    skip
     assert_equal 2, Hamming.compute('ACCAGGG', 'ACTATGG')
   end
 
