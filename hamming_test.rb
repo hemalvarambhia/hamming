@@ -25,7 +25,6 @@ class HammingTest < Minitest::Test
   end
 
   def test_small_distance_in_small_strands
-    skip
     assert_equal 1, Hamming.compute('AT', 'CT')
   end
 
