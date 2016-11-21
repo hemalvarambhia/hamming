@@ -9,12 +9,10 @@ require_relative 'hamming'
 
 class HammingTest < Minitest::Test
   def test_identical_strands
-    # skip
     assert_equal 0, Hamming.compute('A', 'A')
   end
 
   def test_long_identical_strands
-    skip
     assert_equal 0, Hamming.compute('GGACTGA', 'GGACTGA')
   end
 
