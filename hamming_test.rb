@@ -49,7 +49,6 @@ class HammingTest < Minitest::Test
   end
 
   def test_large_distance
-    skip
     assert_equal 4, Hamming.compute('GATACA', 'GCATAA')
   end
 
