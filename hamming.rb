@@ -1,3 +1,7 @@
+module BookKeeping
+  VERSION = 3
+end
+
 class Hamming
   def self.compute seq_1, seq_2
     raise ArgumentError if seq_1.size != seq_2.size
