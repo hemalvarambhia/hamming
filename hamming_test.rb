@@ -57,7 +57,6 @@ class HammingTest < Minitest::Test
   end
 
   def test_empty_strands
-    skip
     assert_equal 0, Hamming.compute('', '')
   end
 
